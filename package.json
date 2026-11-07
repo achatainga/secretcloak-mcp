@@ -1,0 +1,23 @@
+{
+  "name": "@achatainga/secretcloak-mcp",
+  "version": "1.0.0",
+  "description": "Ephemeral Synthetic Token Injector & Zero-Leak Credential Vault for Autonomous Coding Agents",
+  "type": "module",
+  "main": "src/engine.mjs",
+  "scripts": {
+    "test": "node tests/run_live_test.mjs"
+  },
+  "author": "Alejandro Chataing <a.chataing.a@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/achatainga/secretcloak-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "developer-tools",
+    "guardrails"
+  ]
+}

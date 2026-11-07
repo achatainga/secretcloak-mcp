@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "matcher": {
+        "tool": "run_command",
+        "pattern": "(cat|type|Get-Content|grep|Select-String|git\\s+add)\\s+.*(\\.env|id_rsa|\\.pem)"
+      },
+      "action": {
+        "type": "block_with_exit_code_2",
+        "instruction": "Hard block: Direct access or staging of .env and private key files is prohibited. Use SecretCloak synthetic handles ($VAULT:...) to reference environment variables."
+      }
+    }
+  ]
+}
