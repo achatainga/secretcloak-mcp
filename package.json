@@ -1,6 +1,6 @@
 {
   "name": "@achatainga/secretcloak-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ephemeral Synthetic Token Injector & Zero-Leak Credential Vault for Autonomous Coding Agents",
   "type": "module",
   "main": "src/engine.mjs",
