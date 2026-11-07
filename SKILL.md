@@ -1,5 +1,5 @@
 ---
-name: secretcloak-mcp
+name: secretcloak
 description: Ephemeral Synthetic Token Injector & Zero-Leak Credential Vault for Autonomous Coding Agents.
 version: 1.0.0
 tags:
